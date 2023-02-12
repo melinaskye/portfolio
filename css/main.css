@@ -132,13 +132,13 @@ h1{
 main {
   max-width: 1250px;
   margin: auto;
-  padding: 15px;
+  padding: 0px;
 }
 
 .main-container {
 margin: auto;
 background-color: rgb(245, 245, 245);
-padding: 15px;
+padding: 5px;
 }
 
 .progression {
@@ -287,6 +287,10 @@ footer {
     margin: 20px;
 }
 
+footer p {
+  text-align: center;
+}
+
 .headshot{
     margin:20px;
 }
@@ -327,10 +331,10 @@ a {
 .fa {
     color: white;
     background: #000D7E;
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
     margin: 10px;
-    font-size: 50px;
+    font-size: 48px;
 }
 
 .melina:hover {
@@ -392,6 +396,10 @@ background: #00063c;
 @media (min-width: 750px) {
 .gallery{
 flex-direction: row;
+}
+
+.main-container {
+  padding: 15px;
 }
 
 .center {
@@ -471,6 +479,10 @@ nav p {
  font-size: 18px;
 }
 
+main {
+  padding: 15px;
+}
+
 .ideationimg{
     max-width:75%;
     height: auto;
@@ -499,6 +511,10 @@ body {
 
 .logo{
     max-width: 100%;
+}
+
+.fa {
+  padding: 15px;
 }
 
 }
