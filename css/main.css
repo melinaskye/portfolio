@@ -137,6 +137,8 @@ main {
 
 .main-container {
 margin: auto;
+background-color: rgb(245, 245, 245);
+padding: 15px;
 }
 
 .progression {
@@ -194,9 +196,13 @@ strong {
     color: #000D7E;
 }
 
-nav a:visited{
-    text-decoration: none;
-    color: black;
+.navli a:visited{
+  color: black;  
+  text-decoration: none;
+}
+
+.navli {
+ color: black;
 }
 
 img {
