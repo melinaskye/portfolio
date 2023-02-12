@@ -254,6 +254,10 @@ nav {
     margin: 20px;
 }
 
+nav p {
+  font-size: 16px;
+}
+
 nav p:hover {
 font-weight: 700;
 }
@@ -463,8 +467,8 @@ flex-direction: row;
     align-items: center;
 }
 
-nav {
- font-size: 16px;
+nav p {
+ font-size: 18px;
 }
 
 .ideationimg{
