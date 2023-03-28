@@ -314,6 +314,82 @@ p {
     font-size: 32px;
 }
 
+.imagecontainer{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.imagecontainer .center-layer {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:rgba(0, 0, 0, 0.65);
+  color: white;
+}
+
+.imagecontainer .center-position{
+  display: inline-block;
+position: absolute;
+top: 50%;
+width: 100%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+input[type=submit] {
+  background-color: #000D7E;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.contact-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+textarea {
+  border: none;
+}
+
+label {
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+background-color: aliceblue;
+padding: 25px;
+}
+
+
+
 
 ol li{
     font-weight: 200;
@@ -360,25 +436,6 @@ a {
     flex-direction: column;
 }
 
-.imagecontainer{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:24px;
-    font-weight: 600;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    visibility:visible;
-  }
-
- .imagecontainer img {
-    filter: brightness(50%);
-  }
 
 .icons{
     margin:20px;
@@ -411,23 +468,33 @@ flex-direction: row;
     margin: 10px;
 }
 
-.imagecontainer:hover>.center {
-    display: block;
+
+
+.imagecontainer .center-layer {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:rgba(0, 0, 0, 0.5);
+  color: white;
+  overflow: hidden;
 }
 
-.center:hover {
-  display: block;
+.imagecontainer:hover .center-layer {
+  opacity: 1;
 }
 
-.center:hover + .gallery img {
-  filter: brightness(50%)
+.imagecontainer .center-position{
+  display: inline-block;
+position: absolute;
+top: 50%;
+width: 100%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
 }
-.gallery img {
-    filter: brightness(100%)
-}
-.gallery img:hover {
-  filter: brightness(50%)
-}
+
 .subogwork{
     grid-template-columns: 1fr 1fr;
 }
