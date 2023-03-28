@@ -337,7 +337,7 @@ position: absolute;
 top: 50%;
 width: 100%;
 left: 50%;
--webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
 }
 
 input {
@@ -492,7 +492,7 @@ position: absolute;
 top: 50%;
 width: 100%;
 left: 50%;
--webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
 }
 
 .subogwork{
