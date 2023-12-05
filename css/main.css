@@ -50,6 +50,8 @@ hr {
   padding: 0;
 }
 
+
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -83,252 +85,138 @@ textarea {
   resize: none;
 }
 
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 * {
-  font-family: Open Sans;
+  font-family: 'Source Sans 3', sans-serif;
   margin: 0;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 100%;
-  margin: auto;
+.headercontainer .center-layer {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  overflow: hidden;
+  width: 100%; height: 400px  
 }
 
-section {
-  max-width: 1000px;
-  margin: 20px;
+
+.headercontainer .center-position {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.dl {
+.fa {
+  background-color:rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
   color: black;
-  font-size: 36px;
-  margin: 10px;
-}
-
-ul li {
-  line-height: 32px;
-}
-
-p i {
-  margin-bottom: 0;
-}
-
-h2 {
-margin: 50px 0px 10px 0px;
-font-size: 20px;
-}
-
-h1 {
-  line-height: 70px;
-  margin: 10px;
-}
-
-.progression {
-  display: flex;
-  gap: 5px;
-}
-
-main {
-  max-width: 1250px;
-  margin: auto;
-  padding: 0px;
-}
-
-.main-container {
-  margin: auto;
-  background-color: rgb(245, 245, 245);
-  padding: 5px;
-}
-
-.progression {
-  width: 33%
-}
-
-li strong {
-  font-size: 24px;
-}
-
-.graphicdesign {
-  text-align: center;
-}
-
-.graphicdesignsub {
-  text-align: center;
-  margin: 10px;
-}
-
-h1 {
-  font-size: 64px;
-  color: #000D7E;
-  text-align: center;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
-}
-
-.video {
-  display: flex;
-  flex-direction: column;
-}
-
-.centered {
   display: flex;
   justify-content: center;
-  text-align: center;
-}
-
-video {
-  width: 100%
-}
-
-.description {
-  text-align: center;
-  max-width: 75%;
-}
-
-strong {
-  color: #000D7E;
-}
-
-.navli a:visited {
-  color: black;
   text-decoration: none;
 }
 
-.navli {
-  color: black;
+h2 {
+  color: #3477c8;
 }
 
-img {
-  display: flex;
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.left {
-  float: left;
-}
-
-.subogwork {
-  display: grid;
-  grid-template-columns: 1fr;
-  column-gap: 15px;
-}
-
-.blue-bg{
-  background-color: #000D7E;
-  margin: 0;
-}
-
-.dot {
-  height: 50px;
-  width: 50px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 10px;
-}
-
-.gallery {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-}
-
-ul {
-  padding: 0;
-}
-
-.rightside {
-  display: flex;
-  gap: 20px
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  max-width: 100%;
-  margin: 20px;
-}
-
-nav p {
-  font-size: 16px;
-}
-
-nav p:hover {
-  font-weight: 700;
-}
-
-.survey {
-  display: flex;
-  flex-direction: column;
+h4 {
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 20px;
 }
 
 header {
+  background-color: #3477c8;
+}
+
+form {
+  border-radius: 10px;
+}
+
+.fa-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 30px
+  gap: 20px;
+  justify-content: center;
+
 }
 
-.menu {
-  display: flex;
-  flex-direction: column;
+h1 {
+  font-weight: 800;
+  font-size: 64px;
+  color: #3477c8;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
+strong {
+  color: #3477c8;
 }
 
-footer p {
-  text-align: center;
+h2 {
+  font-weight: 700;
+  font-size: 28px;
 }
 
-.headshot {
-  margin: 20px;
+.blue {
+  background-color: rgb(217, 242, 255);
 }
 
-.abouttext {
-  margin: 20px;
+.fa:hover {
+  background-color:#212529;  
+  color: white;
+}
+
+article {
+  padding: 20px 0px
 }
 
 p {
-  font-weight: 200;
-  font-size: 18px;
-  margin-bottom: 30px;
   line-height: 150%;
+  font-size: 18px;
 }
 
-.bold {
-  font-weight: 700;
-  margin: 10px 0px 5px 0px
-}
+section {
+  max-width: 750px;
+  margin: auto;
+ }
 
-.example {
-  font-size: 32px;
+ .gallery {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 10px;
+max-width: 1000px;
+margin: 0
 }
 
 .imagecontainer {
   position: relative;
   text-align: center;
   color: white;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 
 .imagecontainer .center-layer {
@@ -342,18 +230,20 @@ p {
   color: white;
 }
 
-.video-flex {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+.btn:hover {
+  background-color: #212529;
+  color: white;
 }
 
-.doglane-video {
-  width: 100%;
-  margin: 10px;
+label {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.btn {
+background-color: #3486eb;
+color:white;
 }
 
 .imagecontainer .center-position {
@@ -365,121 +255,31 @@ p {
   transform: translate(-50%, -50%);
 }
 
-input {
-  border: 1px solid rgb(0, 0, 0);
-  padding: 10px;
-  color: white;
-  border-radius: 10px;
-}
-
-input[type=submit] {
-  background-color: white;
-  color: #000D7E;
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 700;
-  border-radius: 5px;
-  margin: auto;
-}
-
-.contact-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+nav div {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0;
-
+  max-width: 1000px;
 }
 
-textarea {
-  border-radius: 10px;
+.nav-link {
+font-size: 20px;
 }
 
-label {
-  font-weight: 700;
-  text-align: left;
-  margin-bottom: 10px;
-  color: black;
-  font-size: 18px;
+.nav-link:hover {
+  text-decoration: underline;
 }
 
-.form-flex {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  background-color: lightgray;
-  padding: 25px;
-  border-radius: 25px;
+footer {
+  background-color: #3477c8;
 }
 
 
 
 
-ol li {
-  font-weight: 200;
-}
-
-ul li {
-  font-weight: 200;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.fa {
-  color: white;
-  background: #000D7E;
-  padding: 10px;
-  border-radius: 50%;
-  margin: 10px;
-  font-size: 48px;
-}
-
-.melina:hover {
-  font-style: italic;
-}
-
-.italic {
-  margin-bottom: 5px;
-}
-
-.shirts {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.shirts img {
-  max-width: 49%;
-}
-
-.aboutcontainer {
-  display: flex;
-  flex-direction: column;
-}
 
 
-.icons {
-  margin: 20px;
-}
-
-.fa:hover {
-  background: #00063c;
-}
-
-.abouttext p {
-  font-size: 20px;
-}
-
-
-@media (min-width: 750px) {
+ @media (min-width: 750px) {
   .gallery {
     flex-direction: row;
   }
@@ -488,16 +288,15 @@ a {
     padding: 15px;
   }
 
-  .center {
-    display: none;
-  }
 
   .columns {
     width: 50%;
     margin: 10px;
   }
 
-
+  .center {
+    display: none;
+  }
 
   .imagecontainer .center-layer {
     opacity: 0;
@@ -513,6 +312,8 @@ a {
 
   .imagecontainer:hover .center-layer {
     opacity: 1;
+    backdrop-filter: blur(5px);
+    transition: .2s
   }
 
   .imagecontainer .center-position {
@@ -524,317 +325,5 @@ a {
     transform: translate(-50%, -50%);
   }
 
-  .subogwork {
-    grid-template-columns: 1fr 1fr;
-  }
 
-  .survey {
-    flex-direction: row;
-  }
-
-  .fonts {
-    display: flex;
-    align-items: center;
-    gap: 20px
-  }
-
-  .fontsreverse {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 12px
-  }
-
-  .fontsreverse div {
-    max-width: 50%;
-  }
-
-  .fonts div {
-    max-width: 50%;
-  }
-
-  .progressioncontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .fonts img {
-    max-width: 50%;
-  }
-
-  .survey img {
-    max-width:25%;
-    height: auto;
-  }
-
-  .ideation {
-    display: flex;
-    align-items: center;
-  }
-
-  nav p {
-    font-size: 18px;
-  }
-
-  main {
-    padding: 15px;
-  }
-
-  .ideationimg {
-    max-width: 75%;
-    height: auto;
-  }
-
-  .menu {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    gap: 20px;
-  }
-
-  .cupcard {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-
-  body {
-    max-width: 95%;
-  }
-
-  .cupcard img {
-    width: 49%;
-  }
-
-  .logo {
-    max-width: 100%;
-  }
-
-  .fa {
-    padding: 15px;
-  }
-
-  .video-flex {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-
-
-}
-
-@media (min-width: 1000px) {
-  .subogwork {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .aboutcontainer {
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .abouttext {
-    max-width: 50%;
-  }
-
-  .video {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .video section {
-    max-width: 50%;
-  }
-
-  .video-flex {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-.center-link {
-  text-align: center;
-  margin: 10px;
-}
-
-.center-link:hover {
-  color: black;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
-}
-
-.clearfix::after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
 }
