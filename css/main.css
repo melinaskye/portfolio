@@ -132,12 +132,14 @@ textarea {
 
 h2 {
   color: #0054A6;
+  padding: 5px 0;
 }
 
 h4 {
   font-weight: 600;
   line-height: 150%;
   font-size: 16px;
+  padding: 5px 0;
 }
 
 header {
@@ -168,6 +170,7 @@ strong {
 h2 {
   font-weight: 700;
   font-size: 24px;
+  padding: 15px 0;
 }
 
 .blue {
@@ -186,6 +189,7 @@ article {
 p {
   line-height: 150%;
   font-size: 16px;
+  padding: 10px 0
 }
 
 section {
@@ -214,6 +218,7 @@ margin: 0
 h3 {
   font-size: 22px;
   font-weight: 700;
+  padding: 15px 0;
 }
 
 img {
