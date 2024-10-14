@@ -161,6 +161,81 @@
 <article>
 <h3>How might we clarify the language in Student Admin so the functions of each feature and their potential repercussions are clear? </h3>
 </article>
+<p>After learning about Mike's experience with Banner and Peoplesoft, I wanted to research these other softwares to see how their UI differed from one another.  </p>
+<p>The main Student Information System software utilized by universities are </p>
+<h3>Oracle PeopleSoft </h3>
+<p>Oracle PeopleSoft is the most common Student Information System on the market. Schools such as the University of Connecticut and Penn State University rely on the software to store student information. It is characterized by its tileing schematic on the home page, which users can drill down into to find out more information in each section.</p>
+<h3>Ellucian Banner</h3>
+<p>Ellucian Banner is used by over 1,400 campuses such as Oral Roberts University. It allows for seamless access for students to plan, register, and build schedules. It gives advisors guidance on recommending classes for students and showing trends to them so they can see their progress to graduation. Rather than relying on a side navigation, it utilizes a homepage tiling schematic similar to Peoplesoft.</p>
+<h3>Jenzabar</h3>
+<p>Jenzabar is used by over 1,400 campuses such as Gordon College. It is characterized by different “Hubs”, that organize information by category. Elucian uses a side navigation system for users to go through information, and utilizes a dashboard layout to show multiple widgets per screen </p>
+<h3>Workday</h3>
+<p>Workday is used by universities such as Wake Forest and University of Rochester to store student information. Workday is characterized by its customizable home screen with important features such as announcements.  It works alongside other Workday applications such as Workday Financial Management and Workday Grants Management for seamless integration. Workday focuses its attention to understanding the 3 user types, students, faculty, and administrators and tailors its interface and information to each user. It is characterized by its dashboard layout with broad side navigation that can be drilled down for more information. </p>
+</article>
+<article>
+  <p>From my conversations with Mike Ormsby, I learned there were opportunities for developers to build on top of PeopleSoft's user interface, however, UConn avoids that because it slows down the refresh time, so I assumed that all other universities refrained from building on top of the template. However, when having a conversation with my twin brother Gavin, a senior at Penn State, I realized that his school uses Oracle PeopleSoft as their Student Information System, and their homepage layout looked completely different from UConn’s.</p>
+</article>
+<article>
+  <h2>LionPath Demo </h2>
+  <p>LionPath, similar to Student Admin, is an Oracle PeopleSoft software utilized by tens of thousands of Penn State Students every day.  </p>
+</article>
+<article>
+  <h2>
+    User Persona
+  </h2>
+  <p>After collecting all this information from my interviews and research and analyzing the data points, I created a user persona to help me empathize with the Student Admin user pool so all my designs would be intentional to catering to this user type </p>
+</article>
+<article>
+  <h2>Card Sort</h2>
+  <p>The next step in my process was nailing down the information architecture of the site. I held three separate card sorting tests to see how users group the information within student admin. I decided to have the card sort be open, rather than closed, to give the participants the freedom to label their own groups so I can base my group names on the data.  </p>
+<p>All participants in the card sort grouped together Financial Aid and Bursar Services. Additionally, the average number of groups that participants created was 7, while there are 10 distinct groups in the current student admin. From these findings, I knew that I wanted to consolidate these groups into larger groups to make finding information a lot easier </p>
+</article>
+<article>
+  <h2>Moderated Usability Test</h2>
+  <p>While keeping my participant pool within UConn can be beneficial because students are subject matter experts, I wanted to broaden my scope to non-UConn students, because they do not have any experience with the platform, and may notice issues that people who use the platform have gotten used to and therefore overlook. I decided to contact my brother once again for his help to have him complete common tasks within Student Admin to get his initial reaction. The tasks included: </p>
+  <h4>1) Finding the 1098T Tax form </h4>
+  <h4>2) Finding an Enrollment Appointment </h4>
+  <h4>3) Finding the Unofficial Transcript </h4>
+  <p>Gavin had an easy time finding the 1098T form, however, the same cannot be said for the enrollment appointment. He originally clicked on Academic Progress and Advising to check the planner, then doubled back to manage classes and found the enrollment appointment. Gavin also struggled to find the unofficial transcript because it was not clear that the page was scrollable. He then checked the Course History and the Advisement Report before eventually finding the unofficial transcript </p>
+<p>After completely the moderated usability test, I let my brother browse the site and give his unfiltered opinions. Here are some of the findings: </p>
+<h4>1) The home page is sorted in alphabetical order rather than importance which is unintuitive </h4>
+<h4>2) Many of the tables that have multiple dates default to showing the first semester enrolled, and most people want to see information from the current semester  </h4>
+<h4>3) Many of the pages have a lot of text on them, which users may not read </h4>
+<h4>4) No clarification on what a permission number is </h4>
+<h4>5) Sometimes the back arrows can be misleading, and cause you to lose progress </h4>
+<h4> 6) View Classes is in two groups </h4>
+<p>After chatting with my brother, a technologically savvy student, I decided to get the perspective from someone with less technological experience – my mom. </p>
+<p>I held the same remote moderated user test with the same tasks, but this time, I had my mom use her phone. Both participants had the same struggles with finding enrollment appointments, however, my mom became incredibly frustrated with the process. It was a struggle to get her to complete the open browse. However, she reluctantly obliged, here were some of the findings from her experience </p>
+<h4>1) Some words such as GA Payroll Deduction and Pay Convera are confusing, and do not have a lot of contexts to explain what they are </h4>
+<h4>2) Some pages do not have a back arrow   </h4>
+<h4>3) In general, there is information overload on some pages  </h4>
+<h4>4) Updating classes is confusing, what does it mean?  </h4>
+<p>Overall, this confirmed my findings from my interviews with Mike, that information is not explained well, which causes confusion. </p>
+</article>
+<article>
+  <h2>Initial Information Architecture and Wireframes </h2>
+  <p>From my research of other information systems, I found that many of them grouped their information into different hubs, such as academics and finances. This grouping was incredibly intuitive, and I wanted to recreate it for my wireframes. For my first wireframes, I wanted to group the information into 2 categories: finances and academics, which would then have subgroups. I hypothesized that having this information grouped by these two hubs would make sorting through the information a lot easier. To speed up creating wireframes, I decided to use Google’s Material Design Figma plugin to help with quickly creating components to use in my wireframes as stimuli. I really wanted to focus on the information architecture rather than the user interface for my wireframes, so using this shortcut would allow me to shift my focus to the interaction patterns. Additionally, I planned to use Material Design components as inspiration for my UI, so using these components in my wireframes would get me more acquainted with the components and their structure </p>
+<p>For my first round of user testing, I wanted to incorporate A/B testing. I hypothesized that having at a glance information would be more beneficial for users than the current display of information in student admin, so I created 2 separate stimuli, one reflecting the direction I wanted to take with Student Admin, and one that reflected the current display of information in Student Admin. Additionally, I wanted to explore new ways to display the navigation, so I decided to implement a side navigation pattern to keep the navigation global so navigating can be done all on the same page. </p>
+<p>I held user tests with 6 participants, which took around 15 minutes each. 3 participants tested my wireframes first, while the other 3 tested the Student Admin wireframes first. All participants appreciated the at-a-glance information on the home screen rather than the tiling. 5 out of 6 participants preffered my redesigned wireframes of student admin, while one participant had no preference between the two. Students found both wireframes to be extremely useful, with the differences in the usefulness ratings for both pages being the same. No participants found the academics or finances dashboard. Additionally, multiple participants noted privacy issues with the at-a-glance information immediately upon logging in.  </p>
+<p>These user tests went incredibly well and confirmed all my hypotheses. However, I knew there was room for improvement, especially with the navigation and privacy. </p>
+</article>
+<article>
+  <h2>Wireframe Iteration 2</h2>
+  <p>For my second iteration of my wireframes, I wanted to focus on the information architecture as well as the privacy affordances. I decided to run a survey on the privacy of informaiton within student admin to see if there were any common trends on what information students deem to be “private,” however, the survey revealed that students do not have a common belief on what information should be private. I hypothesized that by creating affordances to configure your privacy, students would feel the same level of comfortability to open student admin in their classes as they do with the current student admin. Additionally, I wanted to test out the information architecture by prompting users to predict where information would live on the site. I wrote out a script and recruited 5 participants and began facilitating user tests </p>
+  <p>I had 5 rounds of user tests; participants were split on how often they used Student Admin in public with some saying they often use the website in public and others saying they rarely use it in public. The most frequent locations students opened student admin was their room or class. User tests lasted around 30 minutes each. </p>
+<p>All participants appreciated privacy mode, and varied in how much they would use it. The biggest takeaways from this round of user testing were to change the names of some of the categories. Participants had trouble finding their high school summary and course history. Also, multiple students noted that the default date for information should be the current semester, rather than the first semester you are enrolled, which parallels what Gavin said in his browse. One opportunity for improvement I want to explore is the Graduation page. Multiple students noted that they expected to find information about Graduation progress on the graduation page, which currently does not exist in Student Admin. </p>
+<h2>Design System</h2>
+<p>After wrapping up my wireframes, I started on my Design System. I used Google’s Material 3 Design System as a foundation for my colors, typography, and components. Google's Material 3 is backed by extensive research, so I knew using this as a basis would lead me in the right direction. I used the Material Theme Builder Figma plugin to generate color tokens applied to all my components. After this, I created all my components from scratch, with variants to make customization easy and allow me to keep all the components attached.  </p>
+</article>
+<article>
+  <h2>UI Design</h2>
+  <p>Once I finalized my design system, I dove straight into the UI. During this process, I made some changes with the color palette, as well as the fonts to better accommodate the dashboard design. </p>
+</article>
+<article>
+  <h2>Next Steps</h2>
+  <p>Over the next few weeks, I plan to write out a script to test the current UI, and testing with 5 different participants. After I plan to create the flows for enrolling in classes, advising reports, onboarding, and expanding the graduation screen. I hope to be finished with this project before thanksgiving break so I can enjoy my last 2 weeks on campus before I graduate :) </p>
+</article>
+<article>
 </section>
     <footer class="flex p-3 ">
       <div class="fa-container p-2 m-2">
